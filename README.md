@@ -1,7 +1,7 @@
 1. **Tên dự án:** Basic Sleep Tracker App
 2. **Platform:** Browser
 3. **Kiểu dự án:** CRUD
-4. **Ngôn ngữ:** HTML, CSS, JS
+4. **Ngôn ngữ:** HTML, CSS, JavaScript
 5. **Mô tả các tính năng chính:** App sẽ có 2 trang hiển thị
 4.1/ Daily sleep activities: Bao gồm các tính năng
 -  Hiển thị hoạt động ngủ theo từng ngày trong tháng (Có thể click vào mỗi ngày để hiển thị thông tin của riêng ngày đó)
