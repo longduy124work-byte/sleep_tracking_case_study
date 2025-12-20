@@ -11,19 +11,39 @@
     // Phương thức calPercent: So sánh số giờ ngủ được với giờ ngủ mục tiêu theo %
 
 
-// Lớp sleepRecord
-class SleepRecord {
-    constructor(_type, _bedTime, _wakeupTime) {
-        this.type = _type; //night || day
-        this.bedTime = _bedTime;
-        this.wakeupTime = _wakeupTime;
+// Lớp sleepDate
+class SleepDate {
+    constructor(_id, _day, _date) {
+        this.id = _id;
+        this.day = _day;
+        this.date = _date;
+        this.bedTime = "23:45";
+        this.wakeupTime = "07:45";
     }
 
-    getDurationInMinutes() {
-        // số phút ngủ của buổi trưa/tối (wakeupTime - bedTime)
-
-
+    getDateOfDay() {
+        let arr = this.date.split("-");
+        return arr[0];
     }
+
+    getFullDay() {
+        return this.day + "<br>" + this.getDateOfDay();
+    }
+
+    getBedTime() {
+        return `<div class="bed-time">
+                    <p>Bed time</p>
+                    <p>${this.bedTime}</p>
+                </div>`
+    }
+
+    getWakeupTime() {
+        return `<div class="wakeup-time">
+                    <p>Wakeup time</p>
+                    <p>${this.wakeupTime}</p>
+                </div>`
+    }
+
+
+
 }
-
-let nap = new SleepRecord(sleepType, bedTime, wakeupTime);
