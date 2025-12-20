@@ -23,7 +23,7 @@
         * Icon X để thoát
         * Button Lưu
 
-4.2/ Report chi tiết
+4.2/ Report chi tiết (khả năng không kịp)
 - Khu vực highlight: 
     * Tổng số ngày ngủ đủ (Tính theo tháng)
     * Trung bình thời gian ngủ mỗi ngày (theo tháng)
