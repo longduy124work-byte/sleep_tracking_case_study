@@ -1,12 +1,61 @@
-table {
-    border: 1px solid black;
+:root {
+  --mint: #bfe7e4;
+  --pink: #fde7e7;
+  --green: #e9f3e7;
+  --yellow: #fff7d6;
+  --purple: #b5bcfb;
 }
 
-td {
-    height: 30px;
-    width: 50px;
-    border: 1px solid black;
-    text-align: center;
+body {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: fit-content;
+    margin-top: 10px;
+}
+
+.sleep-quality {
+    border-radius: 8px;
+    width: 800px;
+}
+
+.bed-time {
+    width: 380px;
+    border-radius: 8px;
+}
+
+.wakeup-time {
+    width: 380px;
+    border-radius: 8px;
+}
+
+.bg-mint {
+    background-color: var(--mint);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.day-item {
+  flex: 1;
+  text-align: center;
+  padding: 8px 4px;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.active-day {
+  background-color: var(--mint);
 }
 
 .bed-time {
